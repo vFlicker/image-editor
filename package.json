@@ -6,10 +6,15 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "deploy": "bash deploy.sh",
     "preview": "vite preview"
   },
   "devDependencies": {
     "sass": "^1.77.1",
     "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "file-saver": "2.0.5",
+    "tui-image-editor": "3.15.3"
   }
 }
